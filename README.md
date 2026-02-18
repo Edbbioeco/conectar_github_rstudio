@@ -1,7 +1,5 @@
-# Conectar o RStudio ao GitHub
+# Conectando o RStudio ao GitHub
 
-
-# Conectando o GitHub ao RStudio
 
 > Conectando o RStudio ao GitHub com 3 pacotes
 
