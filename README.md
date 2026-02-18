@@ -1,7 +1,8 @@
 # Conectando o RStudio ao GitHub
 
 
-> Guia prático para usuários de R que não são da área de tecnologia
+> Guia prático e simples para usuários de R que não são da área de
+> tecnologia, usando apenas 3 pacotes
 
 # Pacotes necessários
 
