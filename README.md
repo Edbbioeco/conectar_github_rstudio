@@ -7,6 +7,11 @@
 
 # Pacotes necessários
 
+> [!IMPORTANT]
+>
+> Antes de carregar os pacotes, certifique os mesmos estão previamente
+> instalados. Caso não, instale-os usando a função `install.packages()`.
+
 ``` r
 library(usethis)
 
