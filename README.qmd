@@ -10,6 +10,10 @@ editor: visual
 
 # Pacotes necessários 
 
+:::{.callout-important}
+Antes de carregar os pacotes, certifique os mesmos estão previamente instalados. Caso não, instale-os usando a função `install.packages()`.
+:::
+
 ```{r}
 #| eval: false
 #| 
