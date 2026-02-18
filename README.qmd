@@ -1,0 +1,22 @@
+---
+title: "Conectar o RStudio ao GitHub"
+format: gfm
+editor: visual
+---
+
+# Conectando o GitHub ao RStudio
+
+>Conectando o RStudio ao GitHub com 3 pacotes
+
+# Pacotes necessários 
+
+```{r}
+#| eval: false
+#| 
+library(usethis)
+
+library(gitcreds)
+
+library(gert)
+```
+
