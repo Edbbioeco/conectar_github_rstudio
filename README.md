@@ -28,19 +28,19 @@ programação que não são da área de tecnologia.
 
 ``` mermaid
 flowchart LR
-  A{Projeto} --> B[Branch main] 
-  A --> C[Branch paralela]
-  B --> D[Adicionar o arquivo]
-  D --> E[Commitando a mudança]
-  E --> F[Pushando para o respositório]
-  F --> G[Pullando do respositório]
-  H[Removendo arquivo] --> E
-  D --> I[Resetar arquivos adicionados]
-  E --> J[Resetar commits]
+  A{**Projeto**} --> B[**Branch main**] 
+  A --> C[**Branch paralela**]
+  B --> D[**Adicionar o arquivo**]
+  D --> E[**Commitando a mudança**]
+  E --> F[**Pushando para o respositório**]
+  F --> G[**Pullando do respositório**]
+  H[**Removendo arquivo**] --> E
+  D --> I[**Resetar arquivos adicionados**]
+  E --> J[**Resetar commits**]
   B --> H
-  B --> K[Mergendo as branches]
-  C --> K[Mergendo as branches]
-  B --> L[Status dos arquivos que possuem mudanças]
+  B --> K[**Mergendo as branches**]
+  C --> K[**Mergendo as branches**]
+  B --> L[**Status dos arquivos que possuem mudanças**]
   style A fill:forestgreen, color:black, stroke:black, stroke-width:2px
   style B fill:gold, color:black, stroke:black, stroke-width:2px
   style C fill:royalblue, color:black, stroke:black, stroke-width:2px
@@ -49,8 +49,8 @@ flowchart LR
   style F fill:goldenrod, color:black, stroke:black, stroke-width:2px
   style G fill:goldenrod, color:black, stroke:black, stroke-width:2px
   style H fill:tomato, color:black, stroke:black, stroke-width:2px
-  style I fill:orange, color:black, stroke:black, stroke-width:2px
-  style J fill:orange, color:black, stroke:black, stroke-width:2px
+  style I fill:orangered, color:black, stroke:black, stroke-width:2px
+  style J fill:orangered, color:black, stroke:black, stroke-width:2px
   style K fill:lightgreen, color:black, stroke:black, stroke-width:2px
   style L fill:yellow, color:black, stroke:black, stroke-width:2px
   linkStyle default stroke-width:3px
