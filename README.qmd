@@ -16,6 +16,14 @@ Desta foram, o objetivo deste guia é apresentar uma forma prática de não apen
 Imagino que você deva estar com muita pressa para pôr a mão-na-massa, mas antes de ir para os códigos, leia esta introdução **BEM** geral. Ela te explicará alguns conceitos chaves que, sem ele, você não entenderá o código.
 :::
 
+```{mermaid}
+flowchart LR
+  A(Projeto) --> B{Branch main} 
+  A --> C[Branch paralela]
+  B --> D{Adicionar o arquivo}
+  D --> E{Commitando a mudança}
+```
+
 # Pacotes necessários
 
 ::: callout-important
