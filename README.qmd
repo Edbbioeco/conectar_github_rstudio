@@ -39,7 +39,7 @@ flowchart LR
 Antes de carregar os pacotes, certifique os mesmos estão previamente instalados. Caso não, instale-os usando a função `install.packages()`.
 :::
 
-```[r]
+```{r}
 #| eval: false
 #| 
 library(usethis)
