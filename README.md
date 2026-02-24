@@ -1,8 +1,30 @@
-# Conectando o RStudio ao GitHub
+# Conectando o RStudio ao GitHub usando R
 
 
 > Guia prático e simples para usuários de R que não são da área de
 > tecnologia, usando apenas 3 pacotes
+
+O GitHub é uma platafornma muito últil a diversos tipos de
+programadores, para o armazenamento e versionamento dos seus códigos.
+Para profissionais que usam a programação fortemente nas suas vidas mas
+não são da área de tecnologia, como biólogos (o meu caso), alguns
+conceitos e operações sobre Git e GitHub podem ser pouco intuitívas.
+Mais ainda, operações sobre como conectar IDEs de programação, como o
+RStudio, ao GitHub, podem se tornar desafios ainda maiores.
+
+Desta foram, o objetivo deste guia é apresentar uma forma prática de não
+apenas entender como o GitHub funciona, mas como trabalhar com ele,
+usando apenas linguagem de programação R, pensando em usuários de
+programação que não são da área de tecnologia.
+
+# Introdução **BEM** geral: Git, GitHub e o fluxo de trabalho de versionamento
+
+> [!IMPORTANT]
+>
+> Imagino que você deva estar com muita pressa para pôr a mão-na-massa,
+> mas antes de ir para os códigos, leia esta introdução **BEM** geral.
+> Ela te explicará alguns conceitos chaves que, sem ele, você não
+> entenderá o código.
 
 # Pacotes necessários
 
