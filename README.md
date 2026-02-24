@@ -48,9 +48,9 @@ flowchart LR
   style E fill:goldenrod, color:black, stroke:black, stroke-width:2px
   style F fill:goldenrod, color:black, stroke:black, stroke-width:2px
   style G fill:goldenrod, color:black, stroke:black, stroke-width:2px
-  style H fill:tomato, color:black, stroke:black, stroke-width:2px
-  style I fill:orangered, color:black, stroke:black, stroke-width:2px
-  style J fill:orangered, color:black, stroke:black, stroke-width:2px
+  style H fill:orangered, color:black, stroke:black, stroke-width:2px
+  style I fill:tomato, color:black, stroke:black, stroke-width:2px
+  style J fill:tomato, color:black, stroke:black, stroke-width:2px
   style K fill:lightgreen, color:black, stroke:black, stroke-width:2px
   style L fill:yellow, color:black, stroke:black, stroke-width:2px
   linkStyle default stroke-width:3px
