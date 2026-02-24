@@ -30,6 +30,7 @@ flowchart LR
   B --> H
   k[Mergendo as branches] --> B
   k[Mergendo as branches] --> C
+  B --> L[Status dos arquivos que possuem mudanças]
 ```
 
 # Pacotes necessários
