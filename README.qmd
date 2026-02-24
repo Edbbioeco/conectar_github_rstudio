@@ -22,6 +22,10 @@ flowchart LR
   A --> C[Branch paralela]
   B --> D{Adicionar o arquivo}
   D --> E{Commitando a mudança}
+  E --> F{Pushando para o respositório}
+  F --> G{Pullando do respositório}
+  H{Removendo arquivo} --> E
+  I{Resetar arquivos adicionados} --> D
 ```
 
 # Pacotes necessários
