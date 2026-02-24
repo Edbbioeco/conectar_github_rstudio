@@ -53,7 +53,7 @@ flowchart LR
   style J fill:orange, color:black, stroke:black, stroke-width:2px
   style K fill:lightgreen, color:black, stroke:black, stroke-width:2px
   style L fill:yellow, color:black, stroke:black, stroke-width:2px
-  linkStyle default stroke-width:3px,stroke:black
+  linkStyle default stroke-width:3px
 ```
 
 # Pacotes necessários
