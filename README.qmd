@@ -16,16 +16,20 @@ Desta foram, o objetivo deste guia é apresentar uma forma prática de não apen
 Imagino que você deva estar com muita pressa para pôr a mão-na-massa, mas antes de ir para os códigos, leia esta introdução **BEM** geral. Ela te explicará alguns conceitos chaves que, sem ele, você não entenderá o código.
 :::
 
-```{mermaid}
+```{mermaid} 
 flowchart LR
-  A(Projeto) --> B{Branch main} 
+  A{Projeto} --> B[Branch main] 
   A --> C[Branch paralela]
-  B --> D{Adicionar o arquivo}
-  D --> E{Commitando a mudança}
-  E --> F{Pushando para o respositório}
-  F --> G{Pullando do respositório}
-  H{Removendo arquivo} --> E
-  I{Resetar arquivos adicionados} --> D
+  B --> D[Adicionar o arquivo]
+  D --> E[Commitando a mudança]
+  E --> F[Pushando para o respositório]
+  F --> G[Pullando do respositório]
+  H[Removendo arquivo] --> E
+  D --> I[Resetar arquivos adicionados]
+  E --> J[Resetar commits]
+  B --> H
+  k[Mergendo as branches] --> B
+  k[Mergendo as branches] --> C
 ```
 
 # Pacotes necessários
@@ -34,7 +38,7 @@ flowchart LR
 Antes de carregar os pacotes, certifique os mesmos estão previamente instalados. Caso não, instale-os usando a função `install.packages()`.
 :::
 
-```{r}
+```[r]
 #| eval: false
 #| 
 library(usethis)
