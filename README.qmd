@@ -31,12 +31,18 @@ flowchart LR
   B --> K[Mergendo as branches]
   C --> K[Mergendo as branches]
   B --> L[Status dos arquivos que possuem mudanças]
-  style A fill:forestgreen, color:black
-  style B fill:gold, color:black
-  style C fill:royalblue, color:black
-  style D fill:goldenrod, color:black
-  style E fill:goldenrod, color:black
-  style K fill:lightgreen, color:black
+  style A fill:forestgreen, color:black, stroke:black
+  style B fill:gold, color:black, stroke:black
+  style C fill:royalblue, color:black, stroke:black
+  style D fill:goldenrod, color:black, stroke:black
+  style E fill:goldenrod, color:black, stroke:black
+  style F fill:goldenrod, color:black, stroke:black
+  style G fill:goldenrod, color:black, stroke:black
+  style H fill:tomato, color:black, stroke:black
+  style I fill:orange, color:black, stroke:black
+  style J fill:orange, color:black, stroke:black
+  style K fill:lightgreen, color:black, stroke:black
+  style L fill:yellow, color:black, stroke:black
 ```
 
 # Pacotes necessários
