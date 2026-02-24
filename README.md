@@ -26,6 +26,23 @@ programação que não são da área de tecnologia.
 > Ela te explicará alguns conceitos chaves que, sem ele, você não
 > entenderá o código.
 
+``` mermaid
+flowchart LR
+  A{Projeto} --> B[Branch main] 
+  A --> C[Branch paralela]
+  B --> D[Adicionar o arquivo]
+  D --> E[Commitando a mudança]
+  E --> F[Pushando para o respositório]
+  F --> G[Pullando do respositório]
+  H[Removendo arquivo] --> E
+  D --> I[Resetar arquivos adicionados]
+  E --> J[Resetar commits]
+  B --> H
+  k[Mergendo as branches] --> B
+  k[Mergendo as branches] --> C
+  B --> L[Status dos arquivos que possuem mudanças]
+```
+
 # Pacotes necessários
 
 > [!IMPORTANT]
