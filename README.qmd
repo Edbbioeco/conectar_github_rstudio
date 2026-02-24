@@ -28,9 +28,15 @@ flowchart LR
   D --> I[Resetar arquivos adicionados]
   E --> J[Resetar commits]
   B --> H
-  k[Mergendo as branches] --> B
-  k[Mergendo as branches] --> C
+  B --> K[Mergendo as branches]
+  C --> K[Mergendo as branches]
   B --> L[Status dos arquivos que possuem mudanças]
+  style A fill:forestgreen, color:black
+  style B fill:gold, color:black
+  style C fill:royalblue, color:black
+  style D fill:goldenrod, color:black
+  style E fill:goldenrod, color:black
+  style K fill:lightgreen, color:black
 ```
 
 # Pacotes necessários
@@ -48,3 +54,5 @@ library(gitcreds)
 
 library(gert)
 ```
+
+
