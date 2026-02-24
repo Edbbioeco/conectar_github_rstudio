@@ -38,9 +38,22 @@ flowchart LR
   D --> I[Resetar arquivos adicionados]
   E --> J[Resetar commits]
   B --> H
-  k[Mergendo as branches] --> B
-  k[Mergendo as branches] --> C
+  B --> K[Mergendo as branches]
+  C --> K[Mergendo as branches]
   B --> L[Status dos arquivos que possuem mudanças]
+  style A fill:forestgreen, color:black, stroke:black, stroke-width:2px
+  style B fill:gold, color:black, stroke:black, stroke-width:2px
+  style C fill:royalblue, color:black, stroke:black, stroke-width:2px
+  style D fill:goldenrod, color:black, stroke:black, stroke-width:2px
+  style E fill:goldenrod, color:black, stroke:black, stroke-width:2px
+  style F fill:goldenrod, color:black, stroke:black, stroke-width:2px
+  style G fill:goldenrod, color:black, stroke:black, stroke-width:2px
+  style H fill:tomato, color:black, stroke:black, stroke-width:2px
+  style I fill:orange, color:black, stroke:black, stroke-width:2px
+  style J fill:orange, color:black, stroke:black, stroke-width:2px
+  style K fill:lightgreen, color:black, stroke:black, stroke-width:2px
+  style L fill:yellow, color:black, stroke:black, stroke-width:2px
+  linkStyle default stroke-width:3px,stroke:black
 ```
 
 # Pacotes necessários
