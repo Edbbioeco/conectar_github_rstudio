@@ -20,6 +20,8 @@ O Git é um sistema de controle de versionamento de arquivos, onde permite que v
 
 ## GitHub
 
+<img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" align = "right" width="150">
+
 O GitHub é uma plataforma online, que serve como rede social e conjunto de repositórios, que pode funcionar tanto com conexão com Git quanto de forma manual. Atualmente sob domínio da Microsoft, o GitHub é a maior plataforma online de repositórios de código aberto, onde boa parte dos softwares atualmente possuem seu código fonte hospedado no GitHub.
 
 ## Fluxo de trabalho
