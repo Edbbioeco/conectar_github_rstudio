@@ -19,6 +19,13 @@ programação que não são da área de tecnologia.
 
 # Introdução **BEM** geral: Git, GitHub e o fluxo de trabalho de versionamento
 
+> [!IMPORTANT]
+>
+> Imagino que você deva estar com muita pressa para pôr a mão-na-massa,
+> mas antes de ir para os códigos, leia esta introdução **BEM** geral.
+> Ela te explicará alguns conceitos chaves que, sem ele, você não
+> entenderá o código.
+
 ## Git
 
 <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" align = "right" width="150">
@@ -41,12 +48,38 @@ softwares atualmente possuem seu código fonte hospedado no GitHub.
 
 ## Fluxo de trabalho
 
-> [!IMPORTANT]
->
-> Imagino que você deva estar com muita pressa para pôr a mão-na-massa,
-> mas antes de ir para os códigos, leia esta introdução **BEM** geral.
-> Ela te explicará alguns conceitos chaves que, sem ele, você não
-> entenderá o código.
+O fluxo de trabalho padrão para enviar um arquivo para um repositório
+funciona da seguinte forma:
+
+- Projeto (pasta) conectado ao repositório do GitHub;
+- Branch: uma `branch` é como uma linha do tempo. Um mesmo repositório
+  pode ter mais de uma linha do tempo, que funcionam de formas
+  independentes. Uma brach não interfere na outra, a não ser que você
+  faça um `merge` de uma branch para outra. Por padrão, a branch
+  principal se chama `main`;
+- Status dos arquivos áptos: avalia quais arquivos estão `áptos` para
+  serem enviados ao repositório do GitHub;
+- Adicionar arquivo: seleciona um arquivo `ápto` dentro da pasta para
+  ser enviado para o GitHub. Os arquivos áptos precisam apresentam
+  alguma forma de diferença com os arquivos do repositório do GitHub.
+  Esse processo é como se você colocasse uma encomenda numa caixa de
+  envios;
+- Commit: salva as mudanças do arquivo adicionado para as mudanças. O
+  commit carrega uma mensagem sobre o que está sendo enviado. Esse
+  processo é como se você colocasse as informações de destino e conteúdo
+  da caixa de envio da encomenda;
+- Push: enviar as mudanças. As mudanças salvas já foram enviadas e, caso
+  não haja nenhum conflito, estarão no repositório do GitHub. Esse
+  processo é como se você enviasse para o serviço de envio da encomenda;
+- Pull: puxa as mudanças do repositório para a pasta local, atualizando
+  seus arquivos. Esse processo é como se você recebesse uma notificação
+  que sua encomenda chegou no destinatário.
+- Remover arquivo: remove arquivos do repositório do GitHub. Também
+  funciona no sistema de commit, push e pull; -Resetar arquivo
+  adicionado: tira o status de adicionado de todos os arquivos
+  adicionados para mudança;
+- Resetar commit: apaga todos os commits feitos e não enviado para o
+  repositório do GitHub.
 
 ``` mermaid
 flowchart LR
