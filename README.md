@@ -26,25 +26,27 @@ programação que não são da área de tecnologia.
 > Ela te explicará alguns conceitos chaves que, sem ele, você não
 > entenderá o código.
 
-## Git
+## [Git](https://git-scm.com)
 
 <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" align = "right" width="150">
 
-O Git é um sistema de controle de versionamento de arquivos, onde
-permite que você controle as versões de um arquivo que vão para um
-repositório online ou no seu computador. Ele se apresenta como uma série
-de comandos de código. Devido a esta sua natureza, este pode não ser tão
-agradável para pessoas que não são da área de tecnologia.
+O [Git](https://git-scm.com) é um sistema de controle de versionamento
+de arquivos, onde permite que você controle as versões de um arquivo que
+vão para um repositório online ou no seu computador. Ele se apresenta
+como uma série de comandos de código. Devido a esta sua natureza, este
+pode não ser tão agradável para pessoas que não são da área de
+tecnologia.
 
-## GitHub
+## [GitHub](https://github.com)
 
 <img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" align = "right" width="150">
 
-O GitHub é uma plataforma online, que serve como rede social e conjunto
-de repositórios, que pode funcionar tanto com conexão com Git quanto de
-forma manual. Atualmente sob domínio da Microsoft, o GitHub é a maior
-plataforma online de repositórios de código aberto, onde boa parte dos
-softwares atualmente possuem seu código fonte hospedado no GitHub.
+O [GitHub](https://github.com) é uma plataforma online, que serve como
+rede social e conjunto de repositórios, que pode funcionar tanto com
+conexão com Git quanto de forma manual. Atualmente sob domínio da
+Microsoft, o GitHub é a maior plataforma online de repositórios de
+código aberto, onde boa parte dos softwares atualmente possuem seu
+código fonte hospedado no GitHub.
 
 ## Fluxo de trabalho
 
@@ -112,6 +114,15 @@ flowchart LR
 ```
 
 # Pacotes necessários
+
+Os pacotes usados são:
+
+- [usethis](https://usethis.r-lib.org): inicia a ssesão com o GitHub e
+  conecta a pasta ao repositório;
+- [gitcreds](https://github.com/r-lib/gitcreds): credencia as chanves de
+  permissão e acesso ao GitHub;
+- [gert](https://github.com/r-lib/gert): faz o processo de adicionar,
+  commit, push, pull e outros processos de fluxo de trabalho.
 
 > [!IMPORTANT]
 >
