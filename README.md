@@ -19,6 +19,28 @@ programação que não são da área de tecnologia.
 
 # Introdução **BEM** geral: Git, GitHub e o fluxo de trabalho de versionamento
 
+## Git
+
+<img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" align = "right" width="150">
+
+O Git é um sistema de controle de versionamento de arquivos, onde
+permite que você controle as versões de um arquivo que vão para um
+repositório online ou no seu computador. Ele se apresenta como uma série
+de comandos de código. Devido a esta sua natureza, este pode não ser tão
+agradável para pessoas que não são da área de tecnologia.
+
+## GitHub
+
+<img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" align = "right" width="150">
+
+O GitHub é uma plataforma online, que serve como rede social e conjunto
+de repositórios, que pode funcionar tanto com conexão com Git quanto de
+forma manual. Atualmente sob domínio da Microsoft, o GitHub é a maior
+plataforma online de repositórios de código aberto, onde boa parte dos
+softwares atualmente possuem seu código fonte hospedado no GitHub.
+
+## Fluxo de trabalho
+
 > [!IMPORTANT]
 >
 > Imagino que você deva estar com muita pressa para pôr a mão-na-massa,
