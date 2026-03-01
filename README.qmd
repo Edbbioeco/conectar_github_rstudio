@@ -77,9 +77,9 @@ flowchart LR
 
 Os pacotes usados são:
 
-- [usethis](https://usethis.r-lib.org);
-- [gitcreds](https://github.com/r-lib/gitcreds);
-- [gert](https://github.com/r-lib/gert).
+- [usethis](https://usethis.r-lib.org): inicia a ssesão com o GitHub e conecta a pasta ao repositório;
+- [gitcreds](https://github.com/r-lib/gitcreds): credencia as chanves de permissão e acesso ao GitHub;
+- [gert](https://github.com/r-lib/gert): faz o processo de adicionar, commit, push, pull e outros processos de fluxo de trabalho.
 
 ::: callout-important
 Antes de carregar os pacotes, certifique os mesmos estão previamente instalados. Caso não, instale-os usando a função `install.packages()`.
