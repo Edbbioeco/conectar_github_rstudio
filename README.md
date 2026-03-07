@@ -136,3 +136,14 @@ library(gitcreds)
 
 library(gert)
 ```
+
+Para começar, vamos primeiro fazer a conexão da máquina para a sua conta
+do GitHub.
+
+Antes de tudo, precisamos informar ao GitHub que o seu computador está
+autorizado a mandar as modificações para a sua conta. Para isso, usamos
+o pacote `usethis`, através da função `create_github_token()`.
+
+``` r
+usethis::create_github_token()
+```
