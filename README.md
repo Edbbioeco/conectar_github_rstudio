@@ -1,8 +1,10 @@
 # Conectando o RStudio ao GitHub usando R
 
 
+> [!TIP]
+>
 > Guia prático e simples para usuários de R que não são da área de
-> tecnologia, usando apenas 3 pacotes
+> tecnologia, usando apenas 3 pacotes.
 
 O GitHub é uma platafornma muito últil a diversos tipos de
 programadores, para o armazenamento e versionamento dos seus códigos.
