@@ -137,6 +137,8 @@ library(gitcreds)
 library(gert)
 ```
 
+# Conectando o seu computador à sua conta do GitHub
+
 Para começar, vamos primeiro fazer a conexão da máquina para a sua conta
 do GitHub.
 
@@ -163,3 +165,5 @@ gitcreds::gitcreds_set("seu_token_vem_aqui")
 > Talvez seja óbvio, mas não divulgue seu token. Seu token não é público
 > e só você tem acesso. Caso outras pessoas tenham acesso, elas poderão
 > ter acesso à sua conta do GitHub.
+
+# Conectando o R a um repositório
