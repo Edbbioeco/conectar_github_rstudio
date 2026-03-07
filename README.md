@@ -167,3 +167,16 @@ gitcreds::gitcreds_set("seu_token_vem_aqui")
 > ter acesso à sua conta do GitHub.
 
 # Conectando o R a um repositório
+
+Agora que seu computador e seu R já podem enviar arquivos para os
+repositórios da sua conta do GitHub, agora vamoa conectar o R a algum
+repositório. Naturalmente, o RStudio cria projetos
+([`RProj`](https://curso-r.github.io/zen-do-r/rproj-dir.html)), pastas
+separadas, para cada repositório. Para isso, existem dois posíveis
+cenários:
+
+1.  Você quer criar um novo projeto para o repositório;
+
+2.  Você quer conectar um projeto
+    ([`RProj`](https://curso-r.github.io/zen-do-r/rproj-dir.html))
+    existente ao repositório;
