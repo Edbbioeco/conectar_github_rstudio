@@ -195,3 +195,7 @@ cenários:
 > - R General;
 > - Desmarque a opção
 >   `Restore the most recently opened project at restartup`.
+>
+> Para mais informações sobre RProjs, clique [neste artigo do
+> Curso-R](https://curso-r.github.io/zen-do-r/rproj-dir.html) sobre o
+> assunto.
