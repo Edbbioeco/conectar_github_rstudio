@@ -141,10 +141,17 @@ library(gert)
 
 # Conectando o seu computador à sua conta do GitHub
 
-Para começar, vamos primeiro fazer a conexão da máquina para a sua conta
-do GitHub.
+Para começar, precisamos configurar nosso perfil do GitHub para o
+RStudio. Usamos o pacote `usethis`, através da função
+`use_git_config()`.
 
-Antes de tudo, precisamos informar ao GitHub que o seu computador está
+``` r
+usethis::use_git_config(user.name = "seuusername",
+                        user.email = "seuemail@gmail.com")
+```
+
+Em seguida, vamos autenticar a conexão da máquina para a sua conta do
+GitHub. Precisamos informar ao GitHub que o seu computador está
 autorizado a mandar as modificações para a sua conta. Para isso, usamos
 o pacote `usethis`, através da função `create_github_token()`.
 
@@ -156,7 +163,7 @@ Essa função abre seu navegador na sua conta do GitHub. Nesta página,
 você irá criar um `token`, uma chave de acesso. Esta chave tem limite de
 tempo, e você pode escolher quando ela irá expirar. Após cria-la, você
 irá copia-la e coloca-la dentro do R. Para isso, usamos o pacote
-`gitcreds`, através da função .
+`gitcreds`, através da função `gitcreds_set()`.
 
 ``` r
 gitcreds::gitcreds_set("seu_token_vem_aqui")
@@ -210,3 +217,5 @@ computador onde o projeto do repositório ficará (argumento `path`).
 gert::git_clone(url = "url_do_seu_repositório.git",
                 path = "caminho_da_pasta_do_seu_computador")
 ```
+
+Para segunda opção, usamos o pacote usethis, através
