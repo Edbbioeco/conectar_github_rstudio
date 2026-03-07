@@ -200,3 +200,13 @@ cenários:
 > Para mais informações sobre RProjs, clique [neste artigo do
 > Curso-R](https://curso-r.github.io/zen-do-r/rproj-dir.html) sobre o
 > assunto.
+
+Para primeira opção, usamos o pacote `gert`, através da função
+`git_clone()`. Isso cria um clone do repositório do seu computador, onde
+você informa a URL do repositório (argumento `url`) e a pasta do seu
+computador onde o projeto do repositório ficará (argumento `path`).
+
+``` r
+gert::git_clone(url = "url_do_seu_repositório.git",
+                path = "caminho_da_pasta_do_seu_computador")
+```
