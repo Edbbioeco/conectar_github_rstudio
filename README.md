@@ -183,12 +183,11 @@ cenários:
 
 > [!IMPORTANT]
 >
-> Por padrão, O RStudio tende a abir a sessão no último projeto aberto,
-> no momento que você liga o RStudio. Na pasta do seu computador onde
-> fica o RProj, existe um arquivo `.Rproj`, que ao clicar, você acesso
-> aquele projeto em específico. Para evitar que o RStudio carregue o
-> último projeto aberto e carregue uma sessão “limpa”, vá em no seu
-> RStudio em:
+> Por padrão, O RStudio abre a sessão no último projeto aberto, no
+> momento que você liga o RStudio. Na pasta do seu computador onde fica
+> o RProj, existe um arquivo `.Rproj`, que ao clicar, você acesso aquele
+> projeto em específico. Para evitar que o RStudio carregue o último
+> projeto aberto e carregue uma sessão “limpa”, vá em no seu RStudio em:
 >
 > - Tools;
 > - Global Options;
