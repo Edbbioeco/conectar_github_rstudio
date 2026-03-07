@@ -4,7 +4,9 @@ format: gfm
 editor: visual
 ---
 
-> Guia prático e simples para usuários de R que não são da área de tecnologia, usando apenas 3 pacotes
+::: callout-tip
+Guia prático e simples para usuários de R que não são da área de tecnologia, usando apenas 3 pacotes.
+:::
 
 O GitHub é uma platafornma muito últil a diversos tipos de programadores, para o armazenamento e versionamento dos seus códigos. Para profissionais que usam a programação fortemente nas suas vidas mas não são da área de tecnologia, como biólogos (o meu caso), alguns conceitos e operações sobre Git e GitHub podem ser pouco intuitívas. Mais ainda, operações sobre como conectar IDEs de programação, como o RStudio, ao GitHub, podem se tornar desafios ainda maiores.
 
