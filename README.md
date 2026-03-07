@@ -218,4 +218,21 @@ gert::git_clone(url = "url_do_seu_repositório.git",
                 path = "caminho_da_pasta_do_seu_computador")
 ```
 
-Para segunda opção, usamos o pacote usethis, através
+Para segunda opção, usamos o pacote `usethis`, através da função
+`use_git_remote()`. Esta função informa o repositório (argumento `url`)
+e o nome que damos a ele (argumento `name`), que é como o R irá
+reconhecer a conexão com o repositório.
+
+``` r
+usethis::use_git_remote(name = "nome_do_remote",
+                        url = "url_do_seu_repositório.git",
+                        overwrite = TRUE)
+```
+
+Desta forma, é possível conectar mais de um repositório para um único
+projeto. Para listar os repositórios conectados ao projeto, usamos o
+pacote `gert`, através da função `gir_remote_ls()`.
+
+``` r
+gert::git_remote_ls()
+```
