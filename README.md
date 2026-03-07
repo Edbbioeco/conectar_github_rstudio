@@ -147,3 +147,19 @@ o pacote `usethis`, através da função `create_github_token()`.
 ``` r
 usethis::create_github_token()
 ```
+
+Essa função abre seu navegador na sua conta do GitHub. Nesta página,
+você irá criar um `token`, uma chave de acesso. Esta chave tem limite de
+tempo, e você pode escolher quando ela irá expirar. Após cria-la, você
+irá copia-la e coloca-la dentro do R. Para isso, usamos o pacote
+`gitcreds`, através da função .
+
+``` r
+gitcreds::gitcreds_set("seu_token_vem_aqui")
+```
+
+> [!IMPORTANT]
+>
+> Talvez seja óbvio, mas não divulgue seu token. Seu token não é público
+> e só você tem acesso. Caso outras pessoas tenham acesso, elas poderão
+> ter acesso à sua conta do GitHub.
