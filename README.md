@@ -272,3 +272,10 @@ gert::git_add(files = list.files(pattern = "^dados_"))
 
 gert::git_add(files = list.files(pattern = ".R$"))
 ```
+
+> [!IMPORTANT]
+>
+> Dentro de uma string (`" "`), usamos `^` para dizer que queremos
+> apenas os arquivos que comecem com aquele padrão de string, e `$` para
+> dizer que queremos apenas os arquivos que terminem com aquele padrão
+> de string.
