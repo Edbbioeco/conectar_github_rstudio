@@ -231,7 +231,7 @@ usethis::use_git_remote(name = "nome_do_remote",
 
 Desta forma, é possível conectar mais de um repositório para um único
 projeto. Para listar os repositórios conectados ao projeto, usamos o
-pacote `gert`, através da função `gir_remote_ls()`.
+pacote `gert`, através da função `git_remote_ls()`.
 
 ``` r
 gert::git_remote_ls()
@@ -245,3 +245,5 @@ arquivos áptos a serem enviados ao GitHub. Quando estamos conectados a
 um repositório do GitHub, ele automaticamente identifica quais arquivos
 do seu computador estão lá, e se há modificações entre o arquivo do seu
 computador e sua versão do repositório.
+
+Para isso, usamos o pacote `gert`, através da função `git_status`.
