@@ -311,3 +311,14 @@ mudanças feitas, usando a função `git_pull()`, do pacote `gert`.
 ``` r
 gert::git_pull(remote = "nome_do_remote")
 ```
+
+# Comandos adicionais
+
+Além destes processos padrões, existem algumas outras coisas que é
+possível serem feitas, que são muito úteis.
+
+## Removendo arquivos do GitHub
+
+## Resetando
+
+## Tracando de branch e merging
