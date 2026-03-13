@@ -246,10 +246,10 @@ um repositório do GitHub, ele automaticamente identifica quais arquivos
 do seu computador estão lá, e se há modificações entre o arquivo do seu
 computador e sua versão do repositório.
 
-Para isso, usamos o pacote `gert`, através da função `git_status`. Esta
-função gera um dataframe, com as informações do nome do arquivo áptos
-para enviar ao repositório do GitHub (coluna `file`), se o arquivo é
-novo em relação ao repositório ou se este arquivo é um arquivo
+Para isso, usamos o pacote `gert`, através da função `git_status()`.
+Esta função gera um dataframe, com as informações do nome do arquivo
+áptos para enviar ao repositório do GitHub (coluna `file`), se o arquivo
+é novo em relação ao repositório ou se este arquivo é um arquivo
 modificado (coluna `status`) e se ele está marcado para ser enviado
 (coluna `staged`).
 
