@@ -299,3 +299,8 @@ gert::git_push(remote = "nome_do_remote")
 
 gert::git_push(remote = "nome_do_remote", force = TRUE)
 ```
+
+> [!IMPORTANT]
+>
+> Pode ser perigoso forçar o envio. Em alguns casos, pode apagar os
+> arquivos do repositório. Tome cuidado ao executá-lo.
