@@ -288,3 +288,14 @@ para o que ele serve.
 ``` r
 gert::git_commit(message = "Script para analisar os dados")
 ```
+
+O próximo passo é de fato enviar ao repositório. Isso é feito pela
+função `git_push()`, do pacote `gert`. Você deve informar qual remote
+você está escolhendo. Podemos forçar o envio, caso os arquivos do
+repositório estajam diferentes dos arquivos do computador.
+
+``` r
+gert::git_push(remote = "nome_do_remote")
+
+gert::git_push(remote = "nome_do_remote", force = TRUE)
+```
