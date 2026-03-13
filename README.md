@@ -321,7 +321,26 @@ possível serem feitas, que são muito úteis.
 
 Não é incomum ocorrer erros em que arquivos que não deveriam foram
 subidos por engano. Para isso, o fluxo é parecido com o mostrado
-anteriormente, mas substituímos a função `git_add()` por `git_rm()`.
+anteriormente, mas substituímos a função `git_add()` por `git_rm()`. O
+mesmo processo de usar a função `list.files()` pode ser usado.
+
+``` r
+# Removendo
+
+gert::git_rm(files = "script_de_analises.R")
+
+# Commitando
+
+gert::git_commit(message = "Removerndo o script para analisar os dados")
+
+# Push
+
+gert::git_push(remote = "nome_do_remote")
+
+# Pull
+
+gert::git_pull(remote = "nome_do_remote")
+```
 
 ## Resetando
 
