@@ -319,6 +319,10 @@ possível serem feitas, que são muito úteis.
 
 ## Removendo arquivos do GitHub
 
+Não é incomum ocorrer erros em que arquivos que não deveriam foram
+subidos por engano. Para isso, o fluxo é parecido com o mostrado
+anteriormente, mas substituímos a função `git_add()` por `git_rm()`.
+
 ## Resetando
 
 ## Tracando de branch e merging
