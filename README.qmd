@@ -231,3 +231,13 @@ Agora que enviado, vamos atualizar nossos arquivos para possíveis mudanças fei
 
 gert::git_pull(remote = "nome_do_remote")
 ```
+
+# Comandos adicionais
+
+Além destes processos padrões, existem algumas outras coisas que é possível serem feitas, que são muito úteis.
+
+## Removendo arquivos do GitHub
+
+## Resetando
+
+## Tracando de branch e merging
