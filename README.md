@@ -261,14 +261,14 @@ Sabendo quais são os aquivos áptos a serem enviados ao GitHub, podemos
 selecionar os arquivos e adiciona-los. Para isso, usamos a função
 `git_add()`, do pacote `gert`. Podemos selecionar apenas um arquivo pelo
 seu nome completo, ou diversos arquivos, através de padrões dos seus
-nomes, como selecionar arquivos que comecem com a string `dados_` ou
+nomes, como selecionar arquivos que comecem com a string `script_` ou
 arquivos de um formato em específico, como `.R`, usando a função
 `list.files()`.
 
 ``` r
 gert::git_add(files = "script_de_analises.R")
 
-gert::git_add(files = list.files(pattern = "^dados_"))
+gert::git_add(files = list.files(pattern = "^script_"))
 
 gert::git_add(files = list.files(pattern = ".R$"))
 ```
@@ -279,3 +279,12 @@ gert::git_add(files = list.files(pattern = ".R$"))
 > apenas os arquivos que comecem com aquele padrão de string, e `$` para
 > dizer que queremos apenas os arquivos que terminem com aquele padrão
 > de string.
+
+Agora que os arquivos foram selecionados e adicionados, podemos fazer
+nossos commits. Estes são feitos usando a função `git_commit()`, do
+pacote `gert`. Procure criar commits que expliquem o que é o arquivo e
+para o que ele serve.
+
+``` r
+gert::git_commit(message = "Script para analisar os dados")
+```
