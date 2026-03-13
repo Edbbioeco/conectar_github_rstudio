@@ -236,3 +236,12 @@ pacote `gert`, através da função `gir_remote_ls()`.
 ``` r
 gert::git_remote_ls()
 ```
+
+# Fluxo de trabalho
+
+Agora que estamos de fato conectados um repositório do GitHub, podemos
+de fato enviar nossos arquivos. O primeiro passo é identificar quais os
+arquivos áptos a serem enviados ao GitHub. Quando estamos conectados a
+um repositório do GitHub, ele automaticamente identifica quais arquivos
+do seu computador estão lá, e se há modificações entre o arquivo do seu
+computador e sua versão do repositório.
