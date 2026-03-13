@@ -305,8 +305,8 @@ gert::git_push(remote = "nome_do_remote", force = TRUE)
 > Pode ser perigoso forçar o envio. Em alguns casos, pode apagar os
 > arquivos do repositório. Tome cuidado ao executá-lo.
 
-Agora que enviado, vamos atualizar nossos código para possíveis
-mudanças, usando a função `git_pull()`, do pacote `gert`.
+Agora que enviado, vamos atualizar nossos arquivos para possíveis
+mudanças feitas, usando a função `git_pull()`, do pacote `gert`.
 
 ``` r
 gert::git_pull(remote = "nome_do_remote")
